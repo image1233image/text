@@ -72,3 +72,19 @@ import java.security.MessageDigest;
         }
     }
 
+// 获取 RecyclerView 的 LayoutManager
+LayoutManager layoutManager = recyclerView.getLayoutManager();
+
+// 获取要检查的子 View 的位置
+int position = 0; // 你想要检查的子 View 的位置
+
+// 获取子 View
+View childView = layoutManager.findViewByPosition(position);
+
+// 检查子 View 是否可见
+if (childView != null && childView.getLocalVisibleRect(new Rect())) {
+    // 子 View 可见
+    // 这里可以进行相应的操作
+} else {
+    // 子 View 不可见
+}
