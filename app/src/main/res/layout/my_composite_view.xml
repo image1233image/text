@@ -1,12 +1,12 @@
 <!-- my_composite_view.xml -->
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
-        android:id="@+id/textView222"
+        android:id="@+id/textView111"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <CheckBox
-        android:id="@+id/checkBoxmaster222"
+        android:id="@+id/checkBoxmaster1111"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Checkbox" />
